@@ -24,7 +24,7 @@ app.get("/test", async (_req, res) => {
   try {
     const rsc = await prisma.user.create({
       data: {
-        email: "test@example.com1",
+        email: "test@example67.com1657",
       },
     });
     console.log("User created:", rsc);
